@@ -104,11 +104,10 @@ let videoElement;
 			observePlace = ".container";
 			return;
 		}
-
 	}
 
 	(function () {
-		isVideoPage();
+		whereAmI();
 		handleMainPage();
 		return;
 	})();
